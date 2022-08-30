@@ -5,8 +5,9 @@ import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
 import org.junit.Before;
 import org.junit.Test;
+import site.nomoreparties.stellarburgers.constants.Constants;
 import site.nomoreparties.stellarburgers.pages.*;
-import site.nomoreparties.stellarburgers.stepsAndConstants.*;
+import site.nomoreparties.stellarburgers.steps.*;
 
 import static com.codeborne.selenide.Selenide.open;
 

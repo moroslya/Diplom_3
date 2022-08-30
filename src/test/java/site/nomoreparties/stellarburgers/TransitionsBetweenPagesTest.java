@@ -6,9 +6,10 @@ import io.restassured.RestAssured;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import site.nomoreparties.stellarburgers.constants.Constants;
 import site.nomoreparties.stellarburgers.data.*;
 import site.nomoreparties.stellarburgers.pages.*;
-import site.nomoreparties.stellarburgers.stepsAndConstants.*;
+import site.nomoreparties.stellarburgers.steps.*;
 
 import static com.codeborne.selenide.Selenide.open;
 

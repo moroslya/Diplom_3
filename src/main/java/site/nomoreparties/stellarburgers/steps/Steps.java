@@ -1,10 +1,11 @@
-package site.nomoreparties.stellarburgers.stepsAndConstants;
+package site.nomoreparties.stellarburgers.steps;
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import org.hamcrest.MatcherAssert;
 import com.codeborne.selenide.WebDriverRunner;
+import site.nomoreparties.stellarburgers.constants.Constants;
 import site.nomoreparties.stellarburgers.data.*;
 import site.nomoreparties.stellarburgers.pages.*;
 
